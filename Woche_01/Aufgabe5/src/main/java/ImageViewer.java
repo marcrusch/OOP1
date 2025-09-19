@@ -19,7 +19,7 @@ public class ImageViewer {
 	
 	private ImageViewer() {
 		readInitialImage();
-		JFrame frame = new JFrame("Viewer");
+    JFrame frame = new JFrame("Viewer");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		imageLabel = new JLabel(new ImageIcon(image));
 		frame.getContentPane().add(imageLabel, BorderLayout.CENTER);
