@@ -17,7 +17,6 @@ public class OrderSystemTest {
         ArrayList<Item> orderList = new ArrayList<Item>();
         orderList.add(testBundle2);
 
-
         Order testOrder = new Order(orderList);
         System.out.println(testOrder.getTotalPrice());
         testOrder.printItems();
